@@ -1,0 +1,106 @@
+body {
+    color: #cccccc;
+    background-color: #262626;
+}
+
+a {
+    color: #cccccc;
+}
+
+a:hover,
+a:focus {
+    color: #8c8c8c;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3;
+    -webkit-transition: .3s;
+    /* ...and now for the proper property */
+    transition: .3s;
+}
+
+.post-preview > a {
+    color: #cccccc;
+}
+
+.post-preview > a:hover,
+.post-preview > a:focus {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.site-heading h1 {
+    font-family: 'Allura', 'Times New Roman', sans-serif;
+}
+
+.intro-header .site-heading .subheading {
+    font-family: 'Lora', 'Times New Roman', sans-serif;
+    font-style: italic;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    background-color: #cc0000;
+    border: 1px solid #cc0000;
+    color: white;
+}
+
+.pager li > a,
+.pager li > span {
+    color: #0d0d0d;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+    color: white;
+    background-color: #cc0000;
+    border: 1px solid #cc0000;
+}
+
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+    color: #cc0000;
+    background-color: #cc0000;
+    cursor: not-allowed;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 500;
+}
+
+.navbar-custom .nav li a {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.post-preview > .post-meta > a {
+    color: white;
+}
+
+.post-preview > .post-meta > a:hover,
+.post-preview > .post-meta > a:focus {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+.post-preview .post-title {
+    font-family: 'Lora', 'Times New Roman', serif;
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1170px) {
+}

@@ -1,0 +1,11 @@
+{
+  "name": "classic-tales",
+  "version": "0.0.1",
+  "description": "Website of Classic Literature",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

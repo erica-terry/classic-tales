@@ -3,6 +3,12 @@ angular.module('app', ['ngRoute', 'ClassicTales'])
 	$routeProvider.when('/home', {
         templateUrl: 'partials/home.html'
     });
+    $routeProvider.when('/story', {
+        templateUrl: 'partials/story.html'
+    });
+    $routeProvider.when('/about', {
+        templateUrl: 'partials/about.html'
+    });
     $routeProvider.otherwise({
     	redirectTo: '/home'
     });

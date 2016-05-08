@@ -100,7 +100,25 @@ h6 {
     font-family: 'Lora', 'Times New Roman', serif;
 }
 
+.author-description {
+    margin-top: 30px;
+}
+
+.author-image {
+    margin-top: 20px;
+}
+
+.story-description {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.pager{
+    margin-bottom: 20px;
+}
+
 @media only screen and (min-width: 768px) {}
 
 @media only screen and (min-width: 1170px) {
 }
+
